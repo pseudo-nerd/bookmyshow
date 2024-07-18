@@ -1,5 +1,5 @@
+const express = require('express');
 const router = require("express").Router();
-const express = require('express')
 const stripe = require("stripe")(
   "sk_test_51JKPQWSJULHQ0FL7LbqLKOaIcjurlUcdP2hJQkXZw3txlhh0hFrEEEOTwdVxf6sWKqLIrerKpV5EfGvmvntYu7Mt00vJq4YQKL"
 );
